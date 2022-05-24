@@ -1,5 +1,6 @@
 import { Counter } from "./HooksExamples/Counter";
 import { MltiplesHooks } from "./HooksExamples/MltiplesHooks";
+import { Referencia } from "./HooksExamples/Referencia";
 import { SimpleForm } from "./HooksExamples/SimpleForm";
 
 
@@ -15,6 +16,9 @@ export const HooksScreens = () => {
         <SimpleForm />
         <h3> Mltiples Hooks useFetch </h3>
         <MltiplesHooks />
+        <h3> useRef </h3>
+        <Referencia />
+      
       </div>
     </div>
   );
